@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPlugin">
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="5dp"
+        android:scrollbars="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="262dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="50dp"
+        android:text="Please input your tweet content:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="20dp"
+        android:text="submit"
+        android:onClick="onSubmitClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="140dp"
+        android:onClick="onPreferenceClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+    <TextView
+        android:id="@+id/nametextView"
+        android:layout_width="185dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="16dp"
+        android:text="Hello"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="140dp"
+        android:onClick="onPreferenceClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/ic_baseline_logout_24" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

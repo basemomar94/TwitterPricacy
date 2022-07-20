@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">TwitterPricacy</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">KjRHMWQUgSSAWejC50GurFN4H</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">EKtcL0ZHlBXJ2ICOlsoS1aeqnPHDWEtuDzA8vIGhayzhUt2JYC</string>
+    <string name="Barriertoken">AAAAAAAAAAAAAAAAAAAAAGzWdAEAAAAA2js79sJhx526dFAOU3I1yIzBHto%3DKme8faENIEG5tf2qThc81ppkRel7jQQR2K1AQaJJmrNazFYJth
+</string>
+
+
+</resources>
